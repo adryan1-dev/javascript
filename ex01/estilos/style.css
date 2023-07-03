@@ -8,6 +8,8 @@ body{
 h1{
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+
 }
 
 section{
@@ -16,9 +18,17 @@ section{
     padding: 15px;
     border-radius: 10px;
     margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+div{
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 footer{
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    font-style: italic;
 }
