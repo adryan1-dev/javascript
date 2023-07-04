@@ -2,7 +2,7 @@
 
 body{
     background-color: rgb(72, 130, 255);
-    font: normal 1em Arial;
+    font: normal 1.2em Arial;
 }
 
 h1{
@@ -21,10 +21,6 @@ section{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
 }
 
-div{
-    margin-bottom: 15px;
-    text-align: center;
-}
 
 footer{
     color: white;
