@@ -2,7 +2,7 @@ function verificar(){
     const data = new Date().getFullYear()
     const fano = document.getElementById('txtano')
     const res = document.getElementById('res')
-    if(fano.value.lengh == 0 || fano.value > data){
+    if(fano.value.length == 0 || fano.value > data){
         window.alert('[ERRO] Verifique os dados e tente novamente')
     } else{
         const fsex = document.getElementsByName('sexo')
