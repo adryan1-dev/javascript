@@ -12,10 +12,12 @@ function contar(){
         let f = Number(fim.value)
         let p = Number(passo.value)
         if(i < f){
+            //contagem comum
             for(c = i; c <= f; c+= p){
                 res.innerHTML += `${c} \u{1F449}`
             }
         } else {
+            //contagem regressiva
             for(c = i; c >= f; c-= p){
                 res.innerHTML += `${c} \u{1F449}`
             }
